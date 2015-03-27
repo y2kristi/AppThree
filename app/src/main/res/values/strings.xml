@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppThree</string>
+
+    <string name="hello_world">Let\'s Draw!</string>
+    <string name="action_settings">Settings</string>
+</resources>
