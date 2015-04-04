@@ -19,8 +19,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mview = new DrawCanvas(this);
-        activity.addContentView(mview,);
+        //mview = new DrawCanvas(this);
+        //activity.addContentView(mview,);
     }
 
 

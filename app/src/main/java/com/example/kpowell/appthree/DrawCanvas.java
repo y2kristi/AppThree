@@ -12,18 +12,20 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.AttributedCharacterIterator;
+
 /**
  * Created by kpowell on 3/22/15.
  */
 public class DrawCanvas extends View {
 
-    public DrawCanvas(Context context) {
+    public DrawCanvas(Context context, AttributeSet attrs) {
 
-        super(context );
+        super(context, attrs);
 
         paint.setAntiAlias(true);
         paint.setStrokeWidth(10f);
-        paint.setColor(Color.BLACK);
+        paint.setColor(Color.WHITE);
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeJoin(Paint.Join.ROUND);
 
