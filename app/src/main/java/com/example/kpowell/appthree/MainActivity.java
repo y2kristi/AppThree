@@ -9,18 +9,13 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 
-public class MainActivity extends ActionBarActivity {
-
-    View mview;
-    Activity activity;
+public class MainActivity extends ActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main );
 
-        //mview = new DrawCanvas(this);
-        //activity.addContentView(mview,);
     }
 
 
